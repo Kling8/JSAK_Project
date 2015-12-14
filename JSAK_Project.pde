@@ -85,7 +85,6 @@ void caveman() { //caveman protagonist
   }
 
 void mammoth(){
-  asd
   fill(#663400);
   rect(mamX,mamY,110,75,30);
   ellipse(mamX+25,mamY+65,40,50);
@@ -102,10 +101,19 @@ void mammoth(){
   ellipse(mamX-5,mamY+20,50,50);
   fill(#000000);
   ellipse(mamX-15,mamY+10,8,8);
+  
+  //tusk
   fill(#ffffff);
   beginShape();
   vertex(mamX-15,mamY+30);
-  vertexkklkljjljl
+  vertex(mamX-35,mamY+35);
+  vertex(mamX-45,mamY+35);
+  vertex(mamX-55,mamY+25);
+  vertex(mamX-58,mamY+38);
+  vertex(mamX-42,mamY+43);
+  vertex(mamX-15,mamY+40);
+  endShape(CLOSE);
+  
 }
 
 void titlePage() {
