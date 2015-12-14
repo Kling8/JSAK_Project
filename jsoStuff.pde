@@ -9,8 +9,8 @@ int stringX=72;
 int stringY=358;
 int feathersX=50;
 int feathersY=300;
-
-
+int arrowshaftX=50;
+int arrowshaftY=280;
 
 
 void jdraw() {
@@ -67,9 +67,7 @@ void jdraw() {
   // rect(spearheadX,spearheadY-50,60,50); 
 
  fill(#ff0000,240);
- rect(48,278,106,5);
-
-
+ rect(arrowshaftX-2,arrowshaftY-2,106,5);
 
   if (drag==1) {
     spearheadX=mouseX-30;
@@ -91,6 +89,9 @@ void jdraw() {
     feathersX=mouseX+10;
     feathersY=mouseY;
   }
+  if (drag==6){
+    arrowshaftX=mouseX;
+    arrowshaftY=mouseY;
   fill(#999999);
   noStroke();
   triangle(spearheadX, spearheadY, spearheadX+30, spearheadY-50, spearheadX+60, spearheadY); //spear head
@@ -109,7 +110,7 @@ void jdraw() {
 
   stroke(#662200); //arrow shaft
   strokeWeight(5);
-  line(50, 280, 150, 280);
+  line(arrowshaftX, arrowshaftY,arrowshaftX+100 , arrowshaftY);
   noStroke(); //arrow feathers
   fill(#ff0000);
   beginShape();

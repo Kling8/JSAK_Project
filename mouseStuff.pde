@@ -16,7 +16,9 @@ void mousePressed() {
     if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX+5 && mouseY>feathersY-20 && mouseY<feathersY+20) {
       drag=5;
     }
-    
+    if (drag==0 && mouseX>arrowshaftX && mouseX<arrowshaftX+100 && mouseY>arrowshaftY && mouseY<arrowshaftY+5){
+      drag=6;
+    }
   }
 
 
