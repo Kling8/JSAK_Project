@@ -1,4 +1,7 @@
+int mx = 5;
+
 void level2() {
+  mx+=2;
   background(#289437);
   textAlign(LEFT);
   text("Hunt the mammoths!", 5, 20);
@@ -11,6 +14,6 @@ void level2() {
 
 
   drawCaveMan(160, 240, #FF0000);
-  mammoth(200, 200);
-  mammoth(100, 200);
+  mammoth(200, 200, 1);
+  //mammoth(200, 200,-1);
 }
