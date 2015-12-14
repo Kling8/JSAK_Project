@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 int drag=0;
 int spearheadX=50;
 int spearheadY=80;
