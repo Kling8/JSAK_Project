@@ -10,10 +10,7 @@ int stringY=358;
 int feathersX=50;
 int feathersY=300;
 
-void setup(){
-  size(320,480);
-  frameRate(30);
-}
+
 
 
 void draw() {
