@@ -43,6 +43,11 @@ if (page == 5){
 if (page == 6){
   winpage();
 }
+
+if(page == 10){
+ jdraw(); 
+  
+}
 }
 
 void caveman() { //caveman protagonist
