@@ -1,16 +1,10 @@
-void level2() {
-  background(#289437);
-  textAlign(LEFT);
-  text("Hunt the mammoths!", 5, 20);
+void level4() {
+  background(#984752);
+  text("level 4", 100, 100);
   fill(#ffffff);
   ellipse(NextX, NextY, 25, 25);
   stroke(#000000);
   line(NextX-10, NextY, NextX+10, NextY);
   line(NextX+10, NextY, NextX, NextY-10);
   line(NextX+10, NextY, NextX, NextY+10);
-
-
-  drawCaveMan(160, 240, #FF0000);
-  mammoth(200, 200);
-  mammoth(100, 200);
 }

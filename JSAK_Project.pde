@@ -44,39 +44,6 @@ void draw() {
   }
 }
 
-
-
-void mammoth() {
-
-  fill(#663400);
-  rect(mamX, mamY, 110, 75, 30);
-  ellipse(mamX+25, mamY+65, 40, 50);
-  ellipse(mamX+85, mamY+60, 40, 65);
-  beginShape();
-  vertex(mamX+110, mamY+35);
-  vertex(mamX+120, mamY+65);
-  vertex(mamX+125, mamY+75);
-  vertex(mamX+110, mamY+55);
-  endShape(CLOSE);
-  fill(#774511);
-  rect(mamX+10, mamY+80, 30, 25, 5);
-  rect(mamX+70, mamY+80, 30, 25, 5);
-  ellipse(mamX-5, mamY+20, 50, 50);
-  fill(#000000);
-  ellipse(mamX-15, mamY+10, 8, 8);
-  fill(#ffffff);
-  beginShape();
-  vertex(mamX-15, mamY+30);
-  vertex(mamX-35, mamY+35);
-  vertex(mamX-40, mamY+37);
-  vertex(mamX-55, mamY+30);
-  vertex(mamX-52, mamY+43);
-  vertex(mamX-45, mamY+47);
-  vertex(mamX-30, mamY+45);
-  vertex(mamX-15, mamY+40);
-  endShape(CLOSE);
-}
-
 void titlePage() {
   background(#FFB640);
   stroke(#FFFFFF);
@@ -104,8 +71,6 @@ void titlePage() {
   textSize (7);
   text ("TM", 200, 183);
 
-
-
   drawCaveMan(160, 440, #FF0000);
 
   fill(#ffffff);
@@ -120,27 +85,9 @@ void titlePage() {
 
 
 
-void level3() {
-  background(#987612);
-  text("level 3", 100, 100);
-  fill(#ffffff);
-  ellipse(NextX, NextY, 25, 25);
-  stroke(#000000);
-  line(NextX-10, NextY, NextX+10, NextY);
-  line(NextX+10, NextY, NextX, NextY-10);
-  line(NextX+10, NextY, NextX, NextY+10);
-}
 
-void level4() {
-  background(#984752);
-  text("level 4", 100, 100);
-  fill(#ffffff);
-  ellipse(NextX, NextY, 25, 25);
-  stroke(#000000);
-  line(NextX-10, NextY, NextX+10, NextY);
-  line(NextX+10, NextY, NextX, NextY-10);
-  line(NextX+10, NextY, NextX, NextY+10);
-}
+
+
 
 void winpage() {
   background(#aabbcc);

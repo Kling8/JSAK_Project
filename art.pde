@@ -1,5 +1,5 @@
 void drawCaveMan(float x, float y, color c){
-      fill (#FFDAB9);
+    fill (#FFDAB9);
     noStroke();
     ellipse (x+10, y, 40, 50); //body
     ellipse (x+13, y-30, 35, 35); //head
@@ -37,4 +37,38 @@ void drawCaveMan(float x, float y, color c){
     fill (#F4A460);
     ellipse (x+38, y-10, 10, 30); //club
   
+}
+
+
+
+
+void mammoth(float x, float y) {
+  stroke(#000000);
+  fill(#663400);
+  rect(x, y, 110, 75, 30);
+  ellipse(x+25, y+65, 40, 50);
+  ellipse(x+85, y+60, 40, 65);
+  beginShape();
+  vertex(x+110, y+35);
+  vertex(x+120, y+65);
+  vertex(x+125, y+75);
+  vertex(x+110, y+55);
+  endShape(CLOSE);
+  fill(#774511);
+  rect(x+10, y+80, 30, 25, 5);
+  rect(x+70, y+80, 30, 25, 5);
+  ellipse(x-5, y+20, 50, 50);
+  fill(#000000);
+  ellipse(x-15, y+10, 8, 8);
+  fill(#ffffff);
+  beginShape();
+  vertex(x-15, y+30);
+  vertex(x-35, y+35);
+  vertex(x-40, y+37);
+  vertex(x-55, y+30);
+  vertex(x-52, y+43);
+  vertex(x-45, y+47);
+  vertex(x-30, y+45);
+  vertex(x-15, y+40);
+  endShape(CLOSE);
 }
