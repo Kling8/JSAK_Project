@@ -112,7 +112,7 @@ void mammoth(){
   fill(#ffffff);
   beginShape();
   vertex(mamX-15,mamY+30);
-//  vertexkklkljjljl
+
 }
 
 void titlePage() {
