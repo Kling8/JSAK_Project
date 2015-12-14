@@ -243,9 +243,3 @@ void winpage(){
   line(NextX+10,NextY,NextX,NextY+10);
 
 }
-
-void mousePressed(){
-  if(dist(NextX,NextY,mouseX,mouseY)<13){
-    page+=1;
-  }
-}

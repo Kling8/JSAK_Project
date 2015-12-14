@@ -14,6 +14,9 @@ void mousePressed() {
   if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX && mouseY>feathersY-30 && mouseY<feathersY) {
     drag=5;
   }
+  if(dist(NextX,NextY,mouseX,mouseY)<13){
+    page+=1;
+  }
 }
 void mouseReleased() {
   drag=0;
