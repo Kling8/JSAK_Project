@@ -19,6 +19,9 @@ void mousePressed() {
     if (drag==0 && mouseX>arrowshaftX && mouseX<arrowshaftX+100 && mouseY>arrowshaftY && mouseY<arrowshaftY+5){
       drag=6;
     }
+    if (drag==0 && mouseX>arrowheadX && mouseX<arrowheadX+20 && mouseY>arrowheadY && mouseY<arrowheadY+30){
+      drag=7;
+    }
   }
 
 
@@ -48,5 +51,13 @@ void mouseReleased() {
   if (dist(feathersX, feathersY, 209,300)<10){
     feathersX=209;
     feathersY=300;
+  }
+  if (dist(arrowshaftX, arrowshaftY, 195,300)<10){
+    arrowshaftX=195;
+    arrowshaftY=300;
+  }
+  if (dist(arrowheadX, arrowheadY, 295,285)<10){
+    arrowheadX=295;
+    arrowheadY=285;
   }
 }
