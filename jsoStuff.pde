@@ -13,7 +13,7 @@ int feathersY=300;
 
 
 
-void draw() {
+void jdraw() {
   background(#ffffff); 
   //win pieces
   fill(210);
