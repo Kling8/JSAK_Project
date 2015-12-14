@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 int drag=0;
 int spearheadX=50;
 int spearheadY=80;
@@ -51,6 +52,20 @@ void asdasdas() {
   vertex(204, 300);
   vertex(194, 320);
   endShape();
+=======
+//asdasd
+int proX = 150;
+int proY = 435;
+color robeC= color(random(256),random(256),random(256));
+int NextX=300;
+int NextY=460;
+int mamX=100;
+int mamY=100;
+
+
+int page = 1;
+
+>>>>>>> origin/master
 
   fill(210);
   triangle(295, 285, 315, 300, 295, 315); //arrowhead
@@ -74,6 +89,7 @@ void asdasdas() {
     connectorX = mouseX-20;
     connectorY = mouseY-5;
   }
+<<<<<<< HEAD
   if (drag==3) {
     spearshaftX=mouseX-7;
     spearshaftY=mouseY-75;
@@ -87,6 +103,69 @@ void asdasdas() {
     feathersY=mouseY-20;
   }
   fill(#999999);
+=======
+
+void mammoth(){
+  fill(#663400);
+  rect(mamX,mamY,110,75,30);
+  ellipse(mamX+25,mamY+65,40,50);
+  ellipse(mamX+85,mamY+60,40,65);
+  beginShape();
+  vertex(mamX+110,mamY+35);
+  vertex(mamX+120,mamY+65);
+  vertex(mamX+125,mamY+75);
+  vertex(mamX+110,mamY+55);
+  endShape(CLOSE);
+  fill(#774511);
+  rect(mamX+10,mamY+80,30,25,5);
+  rect(mamX+70,mamY+80,30,25,5);
+  ellipse(mamX-5,mamY+20,50,50);
+  fill(#000000);
+  ellipse(mamX-15,mamY+10,8,8);
+  
+  //tusk
+  fill(#ffffff);
+  beginShape();
+  vertex(mamX-15,mamY+30);
+  vertex(mamX-35,mamY+35);
+  vertex(mamX-45,mamY+35);
+  vertex(mamX-55,mamY+25);
+  vertex(mamX-58,mamY+38);
+  vertex(mamX-42,mamY+43);
+  vertex(mamX-15,mamY+40);
+  endShape(CLOSE);
+  
+}
+
+void titlePage() {
+  background(#FFB640);
+  stroke(#FFFFFF);
+  fill(#FFFFFF);
+  ellipse(170, 140, 50, 30);
+  ellipse(110, 140, 50, 30);
+  ellipse(130, 150, 50, 30);
+  ellipse(150, 140, 50, 30);
+  ellipse(120, 130, 50, 30);
+  ellipse(160, 120, 50, 30);
+  ellipse(70, 70, 100, 50);
+  ellipse(60, 50, 50, 30);
+  ellipse(50, 90, 50, 30);
+  ellipse(90, 85, 50, 30);
+  ellipse(100, 60, 50, 30);
+  textAlign(CENTER);
+  fill (#000000);
+  textSize (25);
+  text ("Caveman Adventures II", width/2, 100);
+  textSize (15);
+  fill (#6A6F6F);
+  text ("by Alexander Kling and Johnathan So", width/2, 160);
+  textSize(15);
+  text ("Brick Inc.", width/2, 190);
+  textSize (7);
+  text ("TM", 200, 183);
+
+  fill (#FFDAB9);
+>>>>>>> origin/master
   noStroke();
   triangle(spearheadX, spearheadY, spearheadX+30, spearheadY-50, spearheadX+60, spearheadY); //spear head
   fill(#663400);
@@ -157,6 +236,7 @@ void mouseReleased() {
     connectorX = 260;
     connectorY = 99;
   }
+<<<<<<< HEAD
   if (dist(spearshaftX, spearshaftY, 273, 105)<10){
     spearshaftX = 273;
     spearshaftY = 105;
@@ -167,3 +247,6 @@ void mouseReleased() {
   }
   
 }
+=======
+}
+>>>>>>> origin/master
