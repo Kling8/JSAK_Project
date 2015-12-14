@@ -13,7 +13,8 @@ int arrowshaftX=50;
 int arrowshaftY=280;
 int arrowheadX=100;
 int arrowheadY=315;
-
+int arrowbowX=
+int arrowbowY=
 
 void jdraw() {
   background(#ffffff); 
@@ -115,7 +116,7 @@ void jdraw() {
   fill(#ffffff);
   ellipse(90, 400, 60, 85); //bow
   fill(#b35000);
-  rect(stringX, stringY, 5, 83); //bow 
+  rect(stringX, stringY, 5, 83); //string
 
   stroke(#662200); //arrow shaft
   strokeWeight(5);
