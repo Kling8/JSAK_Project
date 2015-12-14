@@ -16,6 +16,7 @@ void mousePressed() {
     if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX+5 && mouseY>feathersY-20 && mouseY<feathersY+20) {
       drag=5;
     }
+    
   }
 
 
@@ -41,5 +42,9 @@ void mouseReleased() {
   if (dist(stringX, stringY, 242, 358) <10) {
     stringX=242;
     stringY=358;
+  }
+  if (dist(feathersX, feathersY, 209,300)<10){
+    feathersX=209;
+    feathersY=300;
   }
 }

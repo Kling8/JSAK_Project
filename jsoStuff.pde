@@ -60,15 +60,17 @@ void jdraw() {
 
   // puzzle pieces
 
-  fill(#ffff00, 250);
-  rect(feathersX-30, feathersY-20, 35, 40);
-  
-  
- 
+  // fill(#ffff00, 250);
+  // rect(feathersX-30, feathersY-20, 35, 40);
+
   // fill(#ff0000);
   // rect(spearheadX,spearheadY-50,60,50); 
-  
-  
+
+ fill(#ff0000,240);
+ rect(48,278,106,5);
+
+
+
   if (drag==1) {
     spearheadX=mouseX-30;
     spearheadY=mouseY+25;
