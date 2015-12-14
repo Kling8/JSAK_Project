@@ -13,7 +13,7 @@ void mousePressed() {
     if (drag==0 && mouseX>stringX && mouseX< stringX+5 && mouseY>stringY && mouseY<stringY+83) {
       drag=4;
     }
-    if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX && mouseY>feathersY-30 && mouseY<feathersY) {
+    if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX+5 && mouseY>feathersY-20 && mouseY<feathersY+20) {
       drag=5;
     }
   }
