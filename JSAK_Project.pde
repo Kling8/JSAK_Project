@@ -1,5 +1,3 @@
-//asdasd
-//test
 int proX = 150;
 int proY = 435;
 color robeC= color(random(256),random(256),random(256));
@@ -7,8 +5,6 @@ int NextX=300;
 int NextY=460;
 int mamX=100;
 int mamY=100;
-
-
 int page = 1;
 
 
@@ -50,46 +46,7 @@ if(page == 10){
 }
 }
 
-void caveman() { //caveman protagonist
 
-    fill (#FFDAB9);
-    noStroke();
-    ellipse (proX+10, proY, 40, 50); //body
-    ellipse (proX+13, proY-30, 35, 35); //head
-    ellipse (proX+18, proY+30, 10, 20);//legs
-    ellipse (proX+1, proY+30, 10, 20);
-    ellipse (proX+30, proY-4, 35, 15); //arms
-    ellipse (proX-10, proY-4, 30, 15);
-    fill (#000000);
-    rect (proX, proY-42, 26, 2);// eyebrow
-    rect (proX+3, proY-25, 20, 1);//mouth
-    rect (proX+3, proY-28, 1, 8);
-    rect (proX+23, proY-28, 1, 8);
-    fill (#FFFFFF);
-    ellipse (proX+1.5, proY-37, 6, 6); //eyes
-    ellipse (proX+21.5, proY-37, 6, 6);
-    fill (#663300);
-    ellipse (proX+13, proY-50, 10, 10);//hair
-    ellipse (proX+5, proY-50, 10, 10);
-    ellipse(proX+7, proY-50, 8, 8);
-    ellipse (proX+8, proY-58, 10, 10);
-    ellipse (proX+5, proY-58, 8, 8);
-    ellipse (proX+13, proY-50, 12, 12);
-    ellipse (proX+13, proY-58, 10, 10);
-    ellipse (proX+20, proY-50, 12, 12);
-    ellipse (proX+20, proY-58, 8, 8);
-    fill (robeC);
-    triangle (proX-8, proY-15, proX-8, proY+25, proX+28, proY+25); //robe
-    fill (#663300);
-    ellipse (proX-4, proY-2, 5, 5);
-    ellipse (proX+3, proY+10, 5, 5);
-    ellipse (proX-4, proY+15, 5, 5 );
-    ellipse (proX+8, proY+17, 5, 5);
-    ellipse (proX-4, proY+7, 5, 5 ); 
-    ellipse (proX+16, proY+20, 5, 5);
-    fill (#F4A460);
-    ellipse (proX+38, proY-10, 10, 30); //club
-  }
 
 void mammoth(){
 
@@ -149,45 +106,9 @@ void titlePage() {
   textSize (7);
   text ("TM", 200, 183);
 
-  fill (#FFDAB9);
-  noStroke();
-  ellipse (proX+10, proY, 40, 50); //body
-  ellipse (proX+13, proY-30, 35, 35); //head
-  ellipse (proX+18, proY+30, 10, 20);//legs
-  ellipse (proX+1, proY+30, 10, 20);
-  ellipse (proX+30, proY-4, 35, 15); //arms
-  ellipse (proX-10, proY-4, 30, 15);
-  fill (#000000);
-  rect (proX, proY-42, 26, 2);// eyebrow
-  rect (proX+3, proY-25, 20, 1);//mouth
-  rect (proX+3, proY-28, 1, 8);
-  rect (proX+23, proY-28, 1, 8);
-  fill (#FFFFFF);
-  ellipse (proX+1.5, proY-37, 6, 6); //eyes
-  ellipse (proX+21.5, proY-37, 6, 6);
-  fill (#663300);
-  ellipse (proX+13, proY-50, 10, 10);//hair
-  ellipse (proX+5, proY-50, 10, 10);
-  ellipse(proX+7, proY-50, 8, 8);
-  ellipse (proX+8, proY-58, 10, 10);
-  ellipse (proX+5, proY-58, 8, 8);
-  ellipse (proX+13, proY-50, 12, 12);
-  ellipse (proX+13, proY-58, 10, 10);
-  ellipse (proX+20, proY-50, 12, 12);
-  ellipse (proX+20, proY-58, 8, 8);
-  fill (#FFB30D);
-  triangle (proX-8, proY-15, proX-8, proY+25, proX+28, proY+25); //robe
-  fill (#663300);
-  ellipse (proX-4, proY-2, 5, 5);
-  ellipse (proX+3, proY+10, 5, 5);
-  ellipse (proX-4, proY+15, 5, 5 );
-  ellipse (proX+8, proY+17, 5, 5);
-  ellipse (proX-4, proY+7, 5, 5 ); 
-  ellipse (proX+16, proY+20, 5, 5);
-  fill (#F4A460);
-  ellipse (proX+38, proY-10, 10, 30); //club
-  fill (#FFEB08);
-  ellipse (400, 0, 300, 200);
+
+  
+  drawCaveMan(160,440,#FF0000);
   
   fill(#ffffff);
   ellipse(NextX,NextY,25,25);
