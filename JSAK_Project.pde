@@ -43,4 +43,6 @@ void draw() {
   if (page == 10) {
     jdraw();
   }
+  
+  oldKey = 'q';
 }
