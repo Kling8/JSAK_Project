@@ -27,10 +27,18 @@ void mousePressed() {
     }
   }
 
-
-
-  if (dist(NextX, NextY, mouseX, mouseY)<13) {
+  if (page!=2 == dist(NextX, NextY, mouseX, mouseY)<13) {
     page+=1;
+  }
+  
+  
+  if (page == 2 && counter==8 && dist(NextX, NextY, mouseX, mouseY)<13) {
+    page+=1;
+  }
+  
+  //restart
+  if (page == 7 && dist(NextX, NextY, mouseX, mouseY)<13) {
+    page=1;
   }
   
 }

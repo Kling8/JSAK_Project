@@ -82,3 +82,13 @@ void mammoth(float x, float y, int d) {
 void jungle(){
   
 }
+
+void nextbutton(){
+  fill(#ffffff);
+  ellipse(NextX, NextY, 25, 25);
+  stroke(#000000);
+  strokeWeight(1);
+  line(NextX-10, NextY, NextX+10, NextY);
+  line(NextX+10, NextY, NextX, NextY-10);
+  line(NextX+10, NextY, NextX, NextY+10);
+}
