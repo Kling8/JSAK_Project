@@ -12,7 +12,10 @@ void keyPressed() {
   if ((key == 'p' && oldKey == 'z' )|| (key == 'z' && oldKey == 'p')) {
     counter = 8;
   }
-
-
   oldKey= key;
+  
+// robe color cheat code
+  if(key == 'r'){
+    robeC=color(random(256), random(256), random(256));
+  }
 }

@@ -3,5 +3,5 @@ void level4() {
   text("level 4", 100, 100);
   nextbutton();
   
-  drawCaveMan(160, 240, #FF0000);
+  drawCaveMan(160, 240, robeC);
 }

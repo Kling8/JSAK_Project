@@ -1,7 +1,7 @@
 
 int proX = 150;
 int proY = 435;
-color robeC= color(random(256), random(256), random(256));
+color robeC= #FFB30D;
 int NextX=300;
 int NextY=460;
 int mamX=100;
