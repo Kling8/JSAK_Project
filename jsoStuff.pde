@@ -13,8 +13,8 @@ int arrowshaftX=50;
 int arrowshaftY=280;
 int arrowheadX=100;
 int arrowheadY=315;
-int arrowbowX=
-int arrowbowY=
+//int arrowbowX=
+//int arrowbowY=
 
 void jdraw() {
   background(#ffffff); 
