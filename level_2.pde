@@ -29,7 +29,7 @@ void level2() {
     m2y=480;
   }
 
-  drawCaveMan(160, 240, #FF0000);
+  drawCaveManSPEAR(160, 240, #FF0000);
   mammoth(mx, my, 1);
   mammoth(m2x, m2y,-1);
 }
