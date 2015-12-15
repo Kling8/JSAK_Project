@@ -32,6 +32,7 @@ void mousePressed() {
   if (dist(NextX, NextY, mouseX, mouseY)<13) {
     page+=1;
   }
+  
 }
 void mouseReleased() {
   drag=0;

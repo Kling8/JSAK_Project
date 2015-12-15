@@ -7,4 +7,6 @@ void level4() {
   line(NextX-10, NextY, NextX+10, NextY);
   line(NextX+10, NextY, NextX, NextY-10);
   line(NextX+10, NextY, NextX, NextY+10);
+  
+  drawCaveMan(160, 240, #FF0000);
 }

@@ -1,4 +1,3 @@
-//asd
 void drawCaveMan(float x, float y, color c) {
   fill (#FFDAB9);
   noStroke();
