@@ -1,6 +1,6 @@
 void mousePressed() {
 
-  if (page == 10) {
+  if (page == 2) {
     if (drag==0 && mouseX>spearheadX && mouseX<spearheadX+60 && mouseY>spearheadY-50 && mouseY<spearheadY) {
       drag=1;
     }
@@ -16,13 +16,13 @@ void mousePressed() {
     if (drag==0 && mouseX>feathersX-35 && mouseX<feathersX+5 && mouseY>feathersY-20 && mouseY<feathersY+20) {
       drag=5;
     }
-    if (drag==0 && mouseX>arrowshaftX && mouseX<arrowshaftX+100 && mouseY>arrowshaftY && mouseY<arrowshaftY+5){
+    if (drag==0 && mouseX>arrowshaftX && mouseX<arrowshaftX+100 && mouseY>arrowshaftY && mouseY<arrowshaftY+5) {
       drag=6;
     }
-    if (drag==0 && mouseX>arrowheadX && mouseX<arrowheadX+20 && mouseY>arrowheadY && mouseY<arrowheadY+30){
+    if (drag==0 && mouseX>arrowheadX && mouseX<arrowheadX+20 && mouseY>arrowheadY && mouseY<arrowheadY+30) {
       drag=7;
     }
-    if (dist(arrowbowX,arrowbowY,mouseX,mouseY)<45){
+    if (dist(arrowbowX, arrowbowY, mouseX, mouseY)<45) {
       drag=8;
     }
   }
@@ -35,36 +35,45 @@ void mousePressed() {
 }
 void mouseReleased() {
   drag=0;
+  counter=0;
   if (dist(spearheadX, spearheadY, 250, 100)<10) {
     spearheadX = 250;
     spearheadY = 100;
+    counter++;
   }
   if (dist(connectorX, connectorY, 260, 99)<10) {
     connectorX = 260;
     connectorY = 99;
+    counter++;
   }
   if (dist(spearshaftX, spearshaftY, 273, 105)<10) {
     spearshaftX = 273;
     spearshaftY = 105;
+    counter++;
   }
   if (dist(stringX, stringY, 242, 358) <10) {
     stringX=242;
     stringY=358;
+    counter++;
   }
-  if (dist(feathersX, feathersY, 209,300)<10){
+  if (dist(feathersX, feathersY, 209, 300)<10) {
     feathersX=209;
     feathersY=300;
+    counter++;
   }
-  if (dist(arrowshaftX, arrowshaftY, 195,300)<10){
+  if (dist(arrowshaftX, arrowshaftY, 195, 300)<10) {
     arrowshaftX=195;
     arrowshaftY=300;
+    counter++;
   }
-  if (dist(arrowheadX, arrowheadY, 295,285)<10){
+  if (dist(arrowheadX, arrowheadY, 295, 285)<10) {
     arrowheadX=295;
     arrowheadY=285;
+    counter++;
   }
-  if (dist(arrowbowX, arrowbowY,240,400)<10){
+  if (dist(arrowbowX, arrowbowY, 240, 400)<10) {
     arrowbowX=240;
     arrowbowY=400;
+    counter++;
   }
 }

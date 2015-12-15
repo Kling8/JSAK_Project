@@ -1,27 +1,7 @@
-int drag=0;
-int spearheadX=50;
-int spearheadY=80;
-int connectorX=60;
-int connectorY=89;
-int spearshaftX=73;
-int spearshaftY=105;
-int stringX=25;
-int stringY=358;
-int feathersX=50;
-int feathersY=300;
-int arrowshaftX=50;
-int arrowshaftY=280;
-int arrowheadX=100;
-int arrowheadY=315;
 
-int arrowbowX=90;
-int arrowbowY=400;
 
 void jdraw() {
   background(#ffffff); 
-
-
-
   //win pieces
   fill(210);
   noStroke();
@@ -157,4 +137,10 @@ void jdraw() {
 
   fill(#999999);
   triangle(arrowheadX, arrowheadY, arrowheadX+20, arrowheadY+15, arrowheadX, arrowheadY+30); //arrowhead
+
+  if (counter==8) {
+    textSize(15);
+    textAlign(LEFT);
+    text("Good Job! You're ready to hunt!", 5, 200);
+  }
 }
