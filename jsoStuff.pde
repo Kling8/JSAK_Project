@@ -5,7 +5,7 @@ int connectorX=60;
 int connectorY=89;
 int spearshaftX=73;
 int spearshaftY=105;
-int stringX=72;
+int stringX=25;
 int stringY=358;
 int feathersX=50;
 int feathersY=300;
@@ -13,11 +13,14 @@ int arrowshaftX=50;
 int arrowshaftY=280;
 int arrowheadX=100;
 int arrowheadY=315;
-int arrowbowX=
-int arrowbowY=
+int arrowbowX=90;
+int arrowbowY=400;
 
 void jdraw() {
   background(#ffffff); 
+
+
+
   //win pieces
   fill(210);
   noStroke();
@@ -31,6 +34,10 @@ void jdraw() {
   ellipse(250, 400, 60, 85); //bow
   fill(#ffffff);
   ellipse(240, 400, 60, 85); //bow
+  fill(#663400);
+  ellipse(arrowbowX+10, arrowbowY, 60, 85); //bow //puzzle
+  fill(#ffffff);
+  ellipse(arrowbowX, arrowbowY, 60, 85); //bow //puzzle
   fill(210);
   rect(242, 358, 5, 83); //bow 
 
@@ -69,11 +76,16 @@ void jdraw() {
   // fill(#ff0000);
   // rect(spearheadX,spearheadY-50,60,50); 
 
- // fill(#ff0000,240);
- // rect(arrowshaftX-2,arrowshaftY-2,106,5);
+  // fill(#ff0000,240);
+  // rect(arrowshaftX-2,arrowshaftY-2,106,5);
 
- // fill(#ff0000);
- // rect(arrowheadX,arrowheadY,20,30);
+  // fill(#ff0000);
+  // rect(arrowheadX,arrowheadY,20,30);
+
+  //fill(#ff0000);
+  //ellipse(95,400,90,90);
+
+
   if (drag==1) {
     spearheadX=mouseX-30;
     spearheadY=mouseY+25;
@@ -94,13 +106,17 @@ void jdraw() {
     feathersX=mouseX+10;
     feathersY=mouseY;
   }
-  if (drag==6){
+  if (drag==6) {
     arrowshaftX=mouseX-50;
     arrowshaftY=mouseY;
   }
-  if (drag==7){
+  if (drag==7) {
     arrowheadX=mouseX-10;
     arrowheadY=mouseY-15;
+  }
+  if (drag==8) {
+    arrowbowX=mouseX;
+    arrowbowY=mouseY;
   }
   fill(#999999);
   noStroke();
@@ -111,16 +127,12 @@ void jdraw() {
   fill(#ffff00);
   rect(connectorX, connectorY, 40, 10); //connector
 
-  fill(#663400);
-  ellipse(100, 400, 60, 85); //bow
-  fill(#ffffff);
-  ellipse(90, 400, 60, 85); //bow
   fill(#b35000);
   rect(stringX, stringY, 5, 83); //string
 
   stroke(#662200); //arrow shaft
   strokeWeight(5);
-  line(arrowshaftX, arrowshaftY,arrowshaftX+100 , arrowshaftY);
+  line(arrowshaftX, arrowshaftY, arrowshaftX+100, arrowshaftY);
   noStroke(); //arrow feathers
   fill(#ff0000);
   beginShape();

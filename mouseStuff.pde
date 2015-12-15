@@ -22,6 +22,9 @@ void mousePressed() {
     if (drag==0 && mouseX>arrowheadX && mouseX<arrowheadX+20 && mouseY>arrowheadY && mouseY<arrowheadY+30){
       drag=7;
     }
+    if (dist(arrowbowX,arrowbowY,mouseX,mouseY)<45){
+      drag=8;
+    }
   }
 
 
@@ -59,5 +62,9 @@ void mouseReleased() {
   if (dist(arrowheadX, arrowheadY, 295,285)<10){
     arrowheadX=295;
     arrowheadY=285;
+  }
+  if (dist(arrowbowX, arrowbowY,240,400)<10){
+    arrowbowX=240;
+    arrowbowY=400;
   }
 }
