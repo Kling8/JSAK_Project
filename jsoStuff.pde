@@ -13,6 +13,7 @@ int arrowshaftX=50;
 int arrowshaftY=280;
 int arrowheadX=100;
 int arrowheadY=315;
+
 int arrowbowX=90;
 int arrowbowY=400;
 

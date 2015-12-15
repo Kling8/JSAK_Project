@@ -1,4 +1,3 @@
-//just testing  mr c
 
 int proX = 150;
 int proY = 435;
