@@ -9,6 +9,7 @@ float m2t = 0;
 void level2() {
   background(#289437);
   textAlign(LEFT);
+  fill(#000000);
   text("Hunt the mammoths!", 5, 20);
   nextbutton();
   

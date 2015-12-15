@@ -21,6 +21,7 @@ void level1() {
   background(#658394);
   textSize(15);
   textAlign(LEFT);
+  fill(#000000);
   text("The caveman is hungry. He needs to hunt \nfor his food but he doesn't have a weapon. \nHelp him construct his spear and bow and \narrow.", 5, 20);
   
 
@@ -163,7 +164,9 @@ void level1() {
   if (counter==8) {
     textSize(15);
     textAlign(LEFT);
+    fill(#000000);
     text("Good Job! You're ready to hunt!", 5, 200);
+    
     nextbutton();
   }
 }
