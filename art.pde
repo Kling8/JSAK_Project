@@ -78,3 +78,7 @@ void mammoth(float x, float y, int d) {
   //fill(#FF0000,100);
   // rect(x-90,y,180,40);
 }
+
+void jungle(){
+  
+}

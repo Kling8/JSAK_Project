@@ -41,7 +41,7 @@ void level1() {
 
   fill(210);
   ellipse(250, 400, 60, 85); //bow
-  fill(#ffffff);
+  fill(#658394);
   ellipse(240, 400, 60, 85); //bow
   fill(#663400);
   ellipse(arrowbowX+10, arrowbowY, 60, 85); //bow //puzzle
