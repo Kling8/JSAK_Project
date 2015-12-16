@@ -13,7 +13,7 @@ void level3() {
   snakeY3=750;
   snakeY4=800;
   snakeY5=850;
-  
+  ss=random(320);
   }
   
   drawCaveManBOW(160, 240, robeC);
