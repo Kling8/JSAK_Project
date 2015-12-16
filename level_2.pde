@@ -7,7 +7,16 @@ float m2y = 280;
 float m2t = 0;
 
 void level2() {
-  background(#289437);
+  background(#537C8E);
+  fill(#4D2E0C); 
+  noStroke();
+  rect(0,400,480,400); //ground
+  
+  fill(#7D939D);
+  ellipse(150,100,70,30);
+  ellipse(120,100,70,30);
+  ellipse(190,100,70,30);
+  
   textAlign(LEFT);
   fill(#000000);
   text("Hunt the mammoths!", 5, 20);
