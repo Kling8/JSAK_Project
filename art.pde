@@ -122,6 +122,7 @@ void drawCaveManBOW(float x, float y, color c) {
   ellipse (x+16, y+20, 5, 5);
   //fill (#F4A460);
   //ellipse (x+38, y-10, 10, 30); //club
+  
 }
 
 
