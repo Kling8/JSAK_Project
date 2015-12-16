@@ -179,7 +179,15 @@ void mammoth(float x, float y, int d) {
 }
 
 void jungle(){
+   background(#537C8E);
+  fill(#4D2E0C); 
+  noStroke();
+  rect(0,400,480,400); //ground
   
+  fill(#7D939D);
+  ellipse(150,100,70,30);
+  ellipse(120,100,70,30);
+  ellipse(190,100,70,30);
 }
 
 void nextbutton(){
