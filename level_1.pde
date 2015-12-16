@@ -1,6 +1,6 @@
 int drag=0;
-int spearheadX=50;
-int spearheadY=80;
+int spearheadX=120;
+int spearheadY=180;
 int connectorX=60;
 int connectorY=89;
 int spearshaftX=73;
@@ -28,11 +28,11 @@ void level1() {
   //win pieces
   fill(210);
   noStroke();
-  triangle(250, 100, 280, 50, 310, 100); //spear head
+  triangle(250, 130, 280, 80, 310, 130); //spear head
   fill(210);
-  rect(273, 105, 15, 150); //shaft
+  rect(273, 135, 15, 150); //shaft
   fill(210);
-  rect(260, 99, 40, 10); //connector
+  rect(260, 129, 40, 10); //connector
 
   fill(210);
   ellipse(250, 400, 60, 85); //bow
