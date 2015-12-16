@@ -40,19 +40,19 @@ void mousePressed() {
 void mouseReleased() {
   drag=0;
   counter=0;
-  if (dist(spearheadX, spearheadY, 250, 100)<10) {
+  if (dist(spearheadX, spearheadY, 250, 130)<10) {
     spearheadX = 250;
-    spearheadY = 100;
+    spearheadY = 130;
     counter++;
   }
-  if (dist(connectorX, connectorY, 260, 99)<10) {
+  if (dist(connectorX, connectorY, 260, 129)<10) {
     connectorX = 260;
-    connectorY = 99;
+    connectorY = 129;
     counter++;
   }
-  if (dist(spearshaftX, spearshaftY, 273, 105)<10) {
+  if (dist(spearshaftX, spearshaftY, 273, 135)<10) {
     spearshaftX = 273;
-    spearshaftY = 105;
+    spearshaftY = 135;
     counter++;
   }
   if (dist(stringX, stringY, 242, 358) <10) {
@@ -61,7 +61,7 @@ void mouseReleased() {
     counter++;
   }
   if (dist(feathersX, feathersY, 209, 300)<10) {
-    feathersX=209;
+    feathersX=210;
     feathersY=300;
     counter++;
   }
