@@ -15,5 +15,5 @@ void level3() {
   snakeY5=850;
   }
   
-  drawCaveMan(160, 240, robeC);
+  drawCaveManBOW(160, 240, robeC);
 }
