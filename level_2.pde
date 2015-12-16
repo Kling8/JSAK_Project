@@ -11,6 +11,7 @@ void level2() {
   
   textAlign(LEFT);
   fill(#000000);
+  textSize(15);
   text("Hunt the mammoths!", 5, 20);
   nextbutton();
   

@@ -28,4 +28,7 @@ void keyPressed() {
   if(key == '4'){
     page=5;
   }
+  if(key =='5'){
+    page=6;
+  }
 }
