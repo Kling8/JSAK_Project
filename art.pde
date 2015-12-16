@@ -188,6 +188,8 @@ void jungle(){
   ellipse(150,100,70,30);
   ellipse(120,100,70,30);
   ellipse(190,100,70,30);
+  
+  
 }
 
 void nextbutton(){
