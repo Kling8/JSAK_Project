@@ -122,6 +122,26 @@ void drawCaveManBOW(float x, float y, color c) {
   ellipse (x+16, y+20, 5, 5);
   //fill (#F4A460);
   //ellipse (x+38, y-10, 10, 30); //club
+  fill(#b35000); // bow
+  rect(x+38, y-17, 3, 29);
+  stroke(#b35000);
+  strokeWeight(3);
+  line(x+41, y-17, x+44, y-14);
+  line(x+44, y-14, x+46, y-10);
+  line(x+46, y-10, x+47, y-6);
+  line(x+47, y-6, x+47, y-2);
+  line(x+47, y-2, x+46, y+2);
+  line(x+46, y+2, x+44, y+6);
+  line(x+44, y+6, x+41, y+10);
+  stroke(#662200); //arrow
+  line(x+30, y-4, x+60, y-4);
+  noStroke();
+  fill(#999999);
+  triangle(x+58, y-8, x+68, y-4, x+58, y);
+  stroke(#ff0000);
+  line(x+30, y-4, x+26, y-7);
+  line(x+30, y-4, x+26, y-1);
+  
   
 }
 
@@ -191,6 +211,10 @@ void jungle(){
   ellipse(190,70,70,30);
   
   
+}
+
+void arctic(){
+  background(#adfef7);
 }
 
 void nextbutton(){

@@ -7,8 +7,8 @@ float m2y = 280;
 float m2t = 0;
 
 void level2() {
- background(12345);
-  
+  //background(12345);
+  arctic();
   textAlign(LEFT);
   fill(#000000);
   textSize(15);
