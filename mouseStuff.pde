@@ -30,7 +30,7 @@ void mousePressed() {
 
  if (page == 2 && counter==8 && dist(NextX, NextY, mouseX, mouseY)<13) {
     page+=1;
-  }else if (page == 6 && dist(NextX, NextY, mouseX, mouseY)<13) {
+  }else if (page == 7 && dist(NextX, NextY, mouseX, mouseY)<13) {
     page=1;
   }else if (page!=2 && dist(NextX, NextY, mouseX, mouseY)<13) {
     page+=1;

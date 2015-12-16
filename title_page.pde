@@ -1,5 +1,5 @@
 void titlePage() {
-  background(#FFB640);
+  background(#00cccc);
   stroke(#FFFFFF);
   fill(#FFFFFF);
   ellipse(170, 140, 50, 30);
@@ -25,12 +25,7 @@ void titlePage() {
   textSize (7);
   text ("TM", 200, 183);
 
-  drawCaveMan(160, 440, robeC);
+  drawCaveMan(160, 440, #FFB30D);
 
-  fill(#ffffff);
-  ellipse(NextX, NextY, 25, 25);
-  stroke(#000000);
-  line(NextX-10, NextY, NextX+10, NextY);
-  line(NextX+10, NextY, NextX, NextY-10);
-  line(NextX+10, NextY, NextX, NextY+10);
+  nextbutton();
 }

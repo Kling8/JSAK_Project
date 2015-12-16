@@ -87,7 +87,7 @@ void drawCaveManSPEAR(float x, float y, color c) {
 
 void mammoth(float x, float y, int d) {
   //  if(d == 1){
-  //  x+=30; 
+  //  x+=30;
 
   //}
   stroke(#000000);
@@ -105,9 +105,23 @@ void mammoth(float x, float y, int d) {
   rect(x+10*d, y+80, 30*d, 25, 5);
   rect(x+70*d, y+80, 30*d, 25, 5);
   ellipse(x-5*d, y+20, 50, 50);
+  fill(#663400);
+  rect(x-20*d, y-10, 33*d, 12, 5);
   fill(#000000);
   ellipse(x-15*d, y+10, 8, 8);
+  //trunk
+  fill(#774511);
+  noStroke();
+  ellipse(x-25*d, y+35, 15, 15);
+  ellipse(x-26*d, y+45, 15, 15);
+  ellipse(x-28*d, y+50, 15, 15);
+  ellipse(x-32*d, y+55, 15, 15);
+  ellipse(x-36*d, y+60, 15, 15);
+  ellipse(x-38*d, y+62, 15, 15);
+  ellipse(x-41*d, y+62, 15, 15);
+  //tusk
   fill(#ffffff);
+  stroke(#000000);
   beginShape();
   vertex(x-15*d, y+30);
   vertex(x-35*d, y+35);
@@ -118,6 +132,7 @@ void mammoth(float x, float y, int d) {
   vertex(x-30*d, y+45);
   vertex(x-15*d, y+40);
   endShape(CLOSE);
+ 
 
   //fill(#FF0000,100);
   // rect(x-90,y,180,40);
@@ -135,4 +150,54 @@ void nextbutton(){
   line(NextX-10, NextY, NextX+10, NextY);
   line(NextX+10, NextY, NextX, NextY-10);
   line(NextX+10, NextY, NextX, NextY+10);
+}
+
+float snakeX=100;
+float snakeY=300;
+float snaket=0;
+float snakeX2=100;
+float snakeY2=350;
+float snaket2=0;
+float snakeX3=100;
+float snakeY3=400;
+float snaket3=0;
+float snakeX4=100;
+float snakeY4=450;
+float snaket4=0;
+float snakeX5=100;
+float snakeY5=500;
+float snaket5=0;
+
+void python(){
+  fill(#44dd44);
+  ellipse(snakeX,snakeY,25,50);
+  fill(#000000);
+  ellipse(snakeX-10,snakeY-10,7,7);
+  ellipse(snakeX+10,snakeY-10,7,7);
+  fill(#dd0000);
+  rect(snakeX-2,snakeY-35,4,10);
+  fill(#ffff44);
+  ellipse(snakeX2,snakeY2,25,50);
+  fill(#44dd44);
+  ellipse(snakeX3,snakeY3,25,50);
+  fill(#ffff44);
+  ellipse(snakeX4,snakeY4,20,50);
+  fill(#44dd44);
+  ellipse(snakeX5,snakeY5,20,50);
+  snaket+=.1;
+  snakeX=100+5*sin(snaket*2);
+  snakeY-=5;
+  snaket2+=.1;
+  snakeX2=100+5*cos(snaket2*2);
+  snakeY2-=5;
+  snaket3+=.1;
+  snakeX3=100+5*sin(snaket3*2);
+  snakeY3-=5;
+  snaket4+=.1;
+  snakeX4=100+5*cos(snaket4*2);
+  snakeY4-=5;
+  snaket5+=.1;
+  snakeX5=100+5*sin(snaket5*2);
+  snakeY5-=5;
+ 
 }

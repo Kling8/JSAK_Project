@@ -37,12 +37,13 @@ void draw() {
   }
 
   if (page == 6) {
+    level5();
+  }
+  
+  if (page == 7) {
     winpage();
   }
 
-  if (page == 10) {
-    jdraw();
-  }
   
   oldKey = 'q';
 }
