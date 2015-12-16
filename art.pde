@@ -186,9 +186,9 @@ void jungle(){
   rect(0,400,480,400); //ground
   
   fill(#7D939D);
-  ellipse(150,100,70,30);
-  ellipse(120,100,70,30);
-  ellipse(190,100,70,30);
+  ellipse(150,70,70,30);
+  ellipse(120,70,70,30);
+  ellipse(190,70,70,30);
   
   
 }
