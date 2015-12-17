@@ -258,7 +258,26 @@ void jungle(){
 
 void arctic(){
   background(#adfef7);
+  fill(#e5e5e5);
+  strokeWeight(1);
+  triangle(10,200,90,-70,170,200);
+  triangle(0,200,50,20,100,200);
+  triangle(40,200,100,30,140,200);
+  triangle(100,200,150,40,200,200);
+  
+  triangle(10,200,90,-70,170,200);
+  triangle(0,200,50,20,100,200);
+  triangle(40,200,100,30,140,200);
+  triangle(100,200,150,40,200,200);
 }
+  
+  
+  
+  
+  
+  
+  
+
 
 void nextbutton(){
   fill(#ffffff);
