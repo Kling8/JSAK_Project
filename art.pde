@@ -218,23 +218,42 @@ void jungle(){
   ellipse(240,80,70,30);
   ellipse(280,80,70,30);
   
-  fill(#644013); // tree
-  noStroke();
-  rect(70, 225, 30, 175);
-  fill(#115F1B);
-  ellipse(100, 280, 100, 100);
-  ellipse(80, 280, 100, 100);
-  ellipse(70, 260, 100, 100);
-  ellipse(100, 260, 100, 100);
   
   fill(#644013); // tree
   noStroke();
-  rect(170, 225, 30, 175);
+  rect(0, 225, 30, 175);
   fill(#115F1B);
+  ellipse(30, 280, 100, 100);
+  ellipse(10, 280, 100, 100);
+  ellipse(0, 260, 100, 100);
+  ellipse(30, 260, 100, 100);
+  
+  fill(#644013); // 2nd tree
+  noStroke();
+  rect(90, 225, 30, 175);
+  fill(#115F1B);
+  ellipse(120, 280, 100, 100);
+  ellipse(100, 280, 100, 100);
+  ellipse(90, 260, 100, 100);
+  ellipse(120, 260, 100, 100);
+  
+  fill(#644013); // 3rd tree
+  noStroke();
+  rect(190, 225, 30, 175);
+  fill(#115F1B);
+  ellipse(220, 280, 100, 100);
   ellipse(200, 280, 100, 100);
-  ellipse(180, 280, 100, 100);
-  ellipse(170, 260, 100, 100);
-  ellipse(200, 260, 100, 100);
+  ellipse(190, 260, 100, 100);
+  ellipse(220, 260, 100, 100);
+  
+  fill(#644013); // 4th tree
+  noStroke();
+  rect(290, 225, 30, 175);
+  fill(#115F1B);
+  ellipse(320, 280, 100, 100);
+  ellipse(300, 280, 100, 100);
+  ellipse(290, 260, 100, 100);
+  ellipse(320, 260, 100, 100);
 }
 
 void arctic(){
