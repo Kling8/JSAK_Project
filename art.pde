@@ -206,11 +206,35 @@ void jungle(){
   rect(0,400,480,400); //ground
   
   fill(#7D939D);
-  ellipse(150,70,70,30);
-  ellipse(120,70,70,30);
-  ellipse(190,70,70,30);
+  ellipse(120,40,70,30); //clouds
+  ellipse(150,40,70,30);
+  ellipse(190,40,70,30);
   
+  ellipse(50,100,70,30);
+  ellipse(80,100,70,30);
+  ellipse(120,100,70,30);
   
+  ellipse(210,80,70,30);
+  ellipse(240,80,70,30);
+  ellipse(280,80,70,30);
+  
+  fill(#644013); // tree
+  noStroke();
+  rect(70, 225, 30, 175);
+  fill(#115F1B);
+  ellipse(100, 280, 100, 100);
+  ellipse(80, 280, 100, 100);
+  ellipse(70, 260, 100, 100);
+  ellipse(100, 260, 100, 100);
+  
+  fill(#644013); // tree
+  noStroke();
+  rect(170, 225, 30, 175);
+  fill(#115F1B);
+  ellipse(200, 280, 100, 100);
+  ellipse(180, 280, 100, 100);
+  ellipse(170, 260, 100, 100);
+  ellipse(200, 260, 100, 100);
 }
 
 void arctic(){
