@@ -4,4 +4,7 @@ void level4() {
   nextbutton();
   
   drawCaveMan(160, 240, robeC);
+  strokeWeight(1);
+  stroke(#000000);
+  stegosaurus();
 }
