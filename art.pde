@@ -349,7 +349,7 @@ void python(){
  int stegX=200;
  int stegY=240;
  
- void stegosaurus(){
+ /*void stegosaurus(){
  //plates
   fill(#440000);
   beginShape();
@@ -452,4 +452,10 @@ void python(){
   endShape(CLOSE);
 
 
+}
+
+*/
+
+void pter(float x, float y){
+  
 }
