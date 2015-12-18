@@ -312,6 +312,7 @@ float snakeX5=100;
 float snakeY5=500;
 float snaket5=0;
 float ss=100;
+float ss2=200;
 
 void python(){
   fill(#44dd44);
@@ -333,9 +334,6 @@ void python(){
   ellipse(snakeX5,snakeY5,20,50);
   
   
-  
-  
-  
   snaket+=.1;
   snakeX=ss+5*sin(snaket*2);
   snakeY-=5;
@@ -350,6 +348,42 @@ void python(){
   snakeY4-=5;
   snaket5+=.1;
   snakeX5=ss+5*sin(snaket5*2);
+  snakeY5-=5;
+  
+  //second snake
+  fill(#44dd44);
+  ellipse(snakeX,snakeY,25,50);
+  fill(#000000);
+  ellipse(snakeX-10,snakeY-10,7,7);
+  ellipse(snakeX+10,snakeY-10,7,7);
+  
+  
+  fill(#dd0000);
+  rect(snakeX-2,snakeY-35,4,10);
+  fill(#ffff44);
+  ellipse(snakeX2,snakeY2,25,50);
+  fill(#44dd44);
+  ellipse(snakeX3,snakeY3,25,50);
+  fill(#ffff44);
+  ellipse(snakeX4,snakeY4,20,50);
+  fill(#44dd44);
+  ellipse(snakeX5,snakeY5,20,50);
+  
+  
+  snaket+=.1;
+  snakeX=ss2+5*sin(snaket*2);
+  snakeY-=5;
+  snaket2+=.1;
+  snakeX2=ss2+5*cos(snaket2*2);
+  snakeY2-=5;
+  snaket3+=.1;
+  snakeX3=ss2+5*sin(snaket3*2);
+  snakeY3-=5;
+  snaket4+=.1;
+  snakeX4=ss2+5*cos(snaket4*2);
+  snakeY4-=5;
+  snaket5+=.1;
+  snakeX5=ss2+5*sin(snaket5*2);
   snakeY5-=5;
 }
  
