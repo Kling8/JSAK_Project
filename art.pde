@@ -260,15 +260,22 @@ void arctic(){
   background(#adfef7);
   fill(#e5e5e5);
   strokeWeight(1);
-  triangle(0,200,80,-70,160,200);
+  triangle(0,200,80,-70,160,200); //moutains
   triangle(-10,200,40,20,90,200);
   triangle(30,200,90,30,130,200);
   triangle(90,200,140,40,190,200);
   
-  triangle(160,200,240,-70,320,200);
+  triangle(160,200,240,-70,320,200); //mountains
   triangle(150,200,200,20,250,200);
   triangle(190,200,250,30,290,200);
   triangle(250,200,300,40,350,200);
+  
+  fill(#0000ff); //puddle
+  noStroke();
+  ellipse(80,320,150,50);
+  ellipse(100,340,150,50);
+  ellipse(60,350,150,50);
+
 }
   
   

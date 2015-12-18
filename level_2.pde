@@ -16,7 +16,7 @@ void level2() {
   nextbutton();
   
   mt+=.1;
-  my+=2;
+  my+=5;
   mx=210+30*cos(mt);
   
   if(my>=480){
