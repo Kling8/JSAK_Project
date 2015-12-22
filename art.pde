@@ -349,7 +349,9 @@ void python(){
   snaket5+=.1;
   snakeX5=ss+5*sin(snaket5*2);
   snakeY5-=5;
+}
   
+void python2(){
   //second snake
   fill(#44dd44);
   ellipse(snakeX,snakeY,25,50);
@@ -372,130 +374,22 @@ void python(){
   
   snaket+=.1;
   snakeX=ss2+5*sin(snaket*2);
-  snakeY-=5;
+  snakeY+=5;
   snaket2+=.1;
   snakeX2=ss2+5*cos(snaket2*2);
-  snakeY2-=5;
+  snakeY2+=5;
   snaket3+=.1;
   snakeX3=ss2+5*sin(snaket3*2);
-  snakeY3-=5;
+  snakeY3+=5;
   snaket4+=.1;
   snakeX4=ss2+5*cos(snaket4*2);
-  snakeY4-=5;
+  snakeY4+=5;
   snaket5+=.1;
   snakeX5=ss2+5*sin(snaket5*2);
-  snakeY5-=5;
+  snakeY5+=5;
 }
  
- int stegX=200;
- int stegY=240;
  
- /*void stegosaurus(){
- //plates
-  fill(#440000);
-  beginShape();
-  vertex(stegX,stegY-40);
-  vertex(stegX-30,stegY-40);
-  vertex(stegX-45,stegY-75);
-  vertex(stegX-15,stegY-120);
-  vertex(stegX+15,stegY-75);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX-80,stegY-40);
-  vertex(stegX-110,stegY-30);
-  vertex(stegX-125,stegY-70);
-  vertex(stegX-98,stegY-120);
-  vertex(stegX-65,stegY-75);
-  endShape(CLOSE);
-    beginShape();
-  vertex(stegX+80,stegY-35);
-  vertex(stegX+50,stegY-40);
-  vertex(stegX+35,stegY-75);
-  vertex(stegX+63,stegY-120);
-  vertex(stegX+95,stegY-70);
-  endShape(CLOSE);
-  //body
-  fill(#00ff00);
-  ellipse(stegX,stegY,250,125);
-  //neck and head
-  beginShape();
-  vertex(stegX-100,stegY-20);
-  vertex(stegX-175,stegY+10);
-  vertex(stegX-175,stegY+35);
-  vertex(stegX-90,stegY+40);
-  endShape(CLOSE);
-  ellipse(stegX-175,stegY+20,100,40);
-  fill(#000000);
-  ellipse(stegX-195,stegY+10,8,8);
-  //legs
-  fill(#00ff00);
-  beginShape();
-  vertex(stegX-80,stegY+30);
-  vertex(stegX-60,stegY+90);
-  vertex(stegX-30,stegY+90);
-  vertex(stegX-20,stegY+30);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX-60,stegY+90);
-  vertex(stegX-70,stegY+140);
-  vertex(stegX-40,stegY+140);
-  vertex(stegX-30,stegY+90);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX-70,stegY+140);
-  vertex(stegX-75,stegY+155);
-  vertex(stegX-35,stegY+155);
-  vertex(stegX-40,stegY+140);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX+30,stegY);
-  vertex(stegX+50,stegY+140);
-  vertex(stegX+80,stegY+140);
-  vertex(stegX+100,stegY);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX+50,stegY+140);
-  vertex(stegX+80,stegY+140);
-  vertex(stegX+85,stegY+155);
-  vertex(stegX+45,stegY+155);
-  endShape(CLOSE);
-  //tail
-  fill(#444444);
-  triangle(stegX+220,stegY+60,stegX+225,stegY+30,stegX+230,stegY+65);
-  triangle(stegX+200,stegY+55,stegX+205,stegY+15,stegX+210,stegY+50);
-  fill(#00ff00);
-  triangle(stegX+100,stegY-30,stegX+100,stegY+35,stegX+240,stegY+70);
-  fill(#444444);
-  triangle(stegX+200,stegY+55,stegX+210,stegY+95,stegX+210,stegY+60);
-  triangle(stegX+220,stegY+62,stegX+230,stegY+93,stegX+230,stegY+66);
-  //plates
-  fill(#440000);
-  beginShape();
-  vertex(stegX+15,stegY-40);
-  vertex(stegX-15,stegY-40);
-  vertex(stegX-30,stegY-75);
-  vertex(stegX,stegY-120);
-  vertex(stegX+30,stegY-75);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX-65,stegY-40);
-  vertex(stegX-95,stegY-35);
-  vertex(stegX-110,stegY-70);
-  vertex(stegX-83,stegY-120);
-  vertex(stegX-50,stegY-75);
-  endShape(CLOSE);
-  beginShape();
-  vertex(stegX+95,stegY-35);
-  vertex(stegX+65,stegY-40);
-  vertex(stegX+50,stegY-75);
-  vertex(stegX+78,stegY-120);
-  vertex(stegX+110,stegY-70);
-  endShape(CLOSE);
-
-
-}
-
-*/
 
 void pter(float x, float y){
   
