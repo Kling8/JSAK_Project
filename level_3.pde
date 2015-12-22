@@ -1,4 +1,3 @@
-
 void level3() {
   jungle();
   //background(#987612);
