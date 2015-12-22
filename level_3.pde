@@ -6,6 +6,7 @@ void level3() {
   nextbutton();
  
   python();
+  python2();
  
   if(snakeY<=-300){
   snakeY=650;
