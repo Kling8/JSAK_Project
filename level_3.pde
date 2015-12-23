@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-=======
+
 int score;
 
->>>>>>> origin/master
+
 void level3() {
   jungle();
   nextbutton();
@@ -17,10 +16,7 @@ void level3() {
   
   if(snake2Y>=650){
     snake2Y=-300;
-    snake2Y2=-350;
-    snake2Y3=-400;
-    snake2Y4=-450;
-    snake2Y5=-500;
+    
     ss2=random(320);
   }
   
