@@ -25,7 +25,7 @@ void titlePage() {
   textSize (7);
   text ("TM", 200, 183);
 
-  drawCaveMan(160, 440, robeC);
+  drawCaveMan(proX, proY, robeC);
 
   nextbutton();
 }

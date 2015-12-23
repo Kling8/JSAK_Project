@@ -19,7 +19,7 @@ void level3() {
     ss2=random(320);
   }
   
-  drawCaveMan(160, 240, robeC);
+  drawCaveMan(proX, proY, robeC);
   
   score++;
   textSize(20);

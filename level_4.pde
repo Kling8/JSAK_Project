@@ -30,7 +30,7 @@ void level4() {
 
 
 
-  drawCaveMan(160, 240, robeC);
+  drawCaveMan(proX, proY, robeC);
   strokeWeight(1);
   stroke(#000000);
 }

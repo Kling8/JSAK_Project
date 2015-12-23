@@ -351,11 +351,8 @@ float snake2Y=300;
 float snake2t=0;
 float snake2X2=100;
 float snake2t2=0;
-float snake2X3=100;
 float snake2t3=0;
-float snake2X4=100;
 float snake2t4=0;
-float snake2X5=100;
 float snake2t5=0;
 float ss2=200;
 

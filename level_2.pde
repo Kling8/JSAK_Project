@@ -31,7 +31,7 @@ void level2() {
     m2y=480;
   }
 
-  drawCaveManSPEAR(160, 240, robeC);
+  drawCaveManSPEAR(proX, proY, robeC);
   mammoth(mx, my, 1);
   mammoth(m2x, m2y,-1);
 }

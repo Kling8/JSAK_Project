@@ -1,6 +1,6 @@
 
-int proX = 150;
-int proY = 435;
+int proX = 160;
+int proY = 440;
 color robeC= #FFB30D;
 int NextX=300;
 int NextY=460;
