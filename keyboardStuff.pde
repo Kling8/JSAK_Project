@@ -34,5 +34,11 @@ void keyPressed() {
   if(key =='5'){
     page=6;
   }
+  if(key == '0'){
+    page=1;
+  }
+  if(key == '9'){
+    page=7;
+  }
   
 }
