@@ -1,7 +1,10 @@
 char oldKey;
 
 void keyPressed() {
-  if (key == 'a') {
+  if (key == 'd') {
+    
+  }
+  if (key == 'n') {
     page+=1;
   }
 

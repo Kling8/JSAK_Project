@@ -307,18 +307,7 @@ float snaket5=0;
 float ss=100;
 
 
-float snake2X=100;
-float snake2Y=300;
-float snake2t=0;
-float snake2X2=100;
-float snake2t2=0;
-float snake2X3=100;
-float snake2t3=0;
-float snake2X4=100;
-float snake2t4=0;
-float snake2X5=100;
-float snake2t5=0;
-float ss2=200;
+
 
 void python(){
   fill(#44dd44);
@@ -351,9 +340,27 @@ void python(){
   snakeX2=ss+5*cos(snaket4*2);
   snaket5+=.1;
   snakeX=ss+5*sin(snaket5*2);
+  
+  fill(#ff0000,80);
+  rect(snakeX-13,snakeY-25,26,255);
 }
   
+  
+float snake2X=100;
+float snake2Y=300;
+float snake2t=0;
+float snake2X2=100;
+float snake2t2=0;
+float snake2X3=100;
+float snake2t3=0;
+float snake2X4=100;
+float snake2t4=0;
+float snake2X5=100;
+float snake2t5=0;
+float ss2=200;
+
 void python2(){
+  
   //second snake
   fill(#44dd44);
   ellipse(snake2X,snake2Y,25,50);
@@ -385,6 +392,9 @@ void python2(){
   snake2X2=ss2+5*cos(snake2t4*2);
   snake2t5+=.1;
   snake2X=ss2+5*sin(snake2t5*2);
+  
+  fill(#ff0000,80);
+  rect(snake2X-13,snake2Y-230,26,255);
 }
  
  
