@@ -1,7 +1,10 @@
+<<<<<<< HEAD
+=======
+int score;
+
+>>>>>>> origin/master
 void level3() {
   jungle();
-  //background(#987612);
-  text("level 3", 100, 100);
   nextbutton();
  
   python();
@@ -9,12 +12,24 @@ void level3() {
  
   if(snakeY<=-300){
   snakeY=650;
-  snakeY2=700;
-  snakeY3=750;
-  snakeY4=800;
-  snakeY5=850;
   ss=random(320);
   }
   
-  drawCaveManBOW(160, 240, robeC);
+  if(snake2Y>=650){
+    snake2Y=-300;
+    snake2Y2=-350;
+    snake2Y3=-400;
+    snake2Y4=-450;
+    snake2Y5=-500;
+    ss2=random(320);
+  }
+  
+  drawCaveMan(160, 240, robeC);
+  
+  score++;
+  textSize(20);
+  fill(#000000);
+  text(score, 20, 20);
+  
+  
 }
